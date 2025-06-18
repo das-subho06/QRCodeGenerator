@@ -14,7 +14,7 @@ A clean and minimal **QR Code Generator** built using **React + Vite** that allo
 - Vite
 - JavaScript (ES6+)
 - [QR Code API](https://goqr.me/api/) (`api.qrserver.com`)
-- CSS (custom or framework-based)
+- CSS (Material UI and sweetalert2)
 
 ## 🚀 Getting Started
 
@@ -24,73 +24,37 @@ A clean and minimal **QR Code Generator** built using **React + Vite** that allo
 Navigate to the project directory:
 
 bash
-Copy
-Edit
+
 cd your-repo-name
-Install dependencies:
+
+then Install dependencies:
 
 bash
-Copy
-Edit
+
 npm install
+npm install @mui/system @emotion/react @emotion/styled
+npm install sweetalert2
+
 Run the app locally:
 
 bash
-Copy
-Edit
+
 npm run dev
+
 Open http://localhost:5173 in your browser.
 
-🖼️ Project Screenshot
 
-💡 How to add the screenshot:
 
-Take a screenshot of your app running in the browser.
 
-Save it in your project folder under a folder named screenshots (create one if it doesn't exist).
-
-Rename the image to something like app-preview.png.
-
-Commit and push the image along with the code.
-
-📁 Project Structure
-css
-Copy
-Edit
-qr-code-generator/
-│
-├── public/
-├── src/
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── components/
-│       └── QRGenerator.jsx
-├── screenshots/
-│   └── app-preview.png
-├── index.html
-├── package.json
-└── README.md
 🙋‍♀️ Author
 Subhashree Das
-🔗 LinkedIn • GitHub
+🔗 [LinkedIn](https://www.linkedin.com/in/subhashree-das-27a622327/) • [GitHub](https://github.com/das-subho06)
 
 📄 License
 This project is open-source and available under the MIT License.
 
-markdown
-Copy
-Edit
 
 ---
 
-### 📌 To add the screenshot:
-
-1. Run your app with `npm run dev`.
-2. Take a screenshot (press `PrtSc` or use `Snipping Tool` / `Windows + Shift + S`).
-3. Save the screenshot inside a folder named `screenshots/` in the root of your project.
-4. Name it `app-preview.png`.
-5. Commit and push:
-   ```bash
-   git add .
-   git commit -m "Add app screenshot"
-   git push
+Here is a screenshot of my project:
+![alt text](app-preview.png)
