@@ -1,0 +1,50 @@
+/* 021526
+03346E
+6EACDA
+E2E2B6 */
+
+*{
+  background-color: #E2E2B6; 
+  /* background-color: white; */
+}
+#heading{
+  text-align:center;
+  font-style: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:#021526 ;
+}
+#textinput{
+  align-self: center;
+  display: flex;
+}
+
+#paper{
+  top: 10%;
+}
+#image{
+  background-color:#021526 ;
+  
+}
+.my-popup {
+     background-color: #ffffff;
+     border: 2px solid #000000;
+   }
+
+   .my-title {
+     font-size: 20px;
+     color: #021526;
+     background-color: white;
+   }
+
+   
+
+   .my-confirm-button {
+     background-color: #6EACDA;
+     color: white;
+   }
+   .my-confirm-button:hover {
+     background-color: #03346E;
+     color: white;
+   }
+
+   
