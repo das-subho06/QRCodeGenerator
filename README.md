@@ -1,115 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>QR Code Generator - Project README</title>
-  <style>
-    body {
-      font-family: "Segoe UI", sans-serif;
-      background-color: #f4f6f8;
-      margin: 0;
-      padding: 20px;
-      color: #333;
-      line-height: 1.6;
-    }
+# QR Code Generator 🧾➡️📱
 
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
+A clean and minimal **QR Code Generator** built using **React + Vite** that allows users to instantly generate QR codes from any **text** or **URL** input.
 
-    h1, h2 {
-      color: #2c3e50;
-    }
+## 🔧 Features
 
-    code {
-      background-color: #eef;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 0.95em;
-    }
+- ✅ Instant QR code generation
+- 🔤 Accepts plain text and URLs
+- ⚛️ Built with React (Vite)
 
-    pre {
-      background-color: #f0f0f0;
-      padding: 10px;
-      border-radius: 5px;
-      overflow-x: auto;
-    }
+## 🛠️ Tech Stack
 
-    img {
-      max-width: 100%;
-      border-radius: 8px;
-    }
+- React
+- Vite
+- JavaScript (ES6+)
+- [QR Code API](https://goqr.me/api/) (`api.qrserver.com`)
+- CSS (custom or framework-based)
 
-    .screenshot {
-      text-align: center;
-      margin: 20px 0;
-    }
+## 🚀 Getting Started
 
-    footer {
-      margin-top: 40px;
-      font-size: 0.9em;
-      text-align: center;
-      color: #777;
-    }
+1. **Clone this repository**:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+Navigate to the project directory:
 
-    ul {
-      list-style: disc;
-      margin-left: 20px;
-    }
+bash
+Copy
+Edit
+cd your-repo-name
+Install dependencies:
 
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>📱 QR Code Generator</h1>
-    <p>A lightweight and user-friendly QR Code Generator built using <strong>React + Vite</strong>. It supports generating QR codes from any plain text or URL.</p>
-
-    <h2>✨ Features</h2>
-    <ul>
-      <li>Generate QR codes in real time</li>
-      <li>Accepts both plain text and URLs</li>
-      <li>Fast and responsive UI with React + Vite</li>
-      <li>Uses the free <a href="https://goqr.me/api/" target="_blank">QR Code API</a></li>
-    </ul>
-
-    <h2>🛠️ Tech Stack</h2>
-    <ul>
-      <li>React (via Vite)</li>
-      <li>JavaScript (ES6+)</li>
-      <li>HTML & CSS</li>
-    </ul>
-
-    <h2>🚀 Getting Started</h2>
-    <pre><code>git clone https://github.com/your-username/your-repo.git
-cd your-repo
+bash
+Copy
+Edit
 npm install
-npm run dev</code></pre>
+Run the app locally:
 
-    <p>Then open <code>http://localhost:5173</code> in your browser.</p>
+bash
+Copy
+Edit
+npm run dev
+Open http://localhost:5173 in your browser.
 
-    <div class="screenshot">
-      <h2>📸 Screenshot</h2>
-      <img src="./screenshots/app-preview.png" alt="QR Code Generator Screenshot" />
-      <p><em>Example: QR code generated for "https://openai.com"</em></p>
-    </div>
+🖼️ Project Screenshot
 
-    <h2>📁 Project Structure</h2>
-    <pre><code>qr-code-generator/
+💡 How to add the screenshot:
+
+Take a screenshot of your app running in the browser.
+
+Save it in your project folder under a folder named screenshots (create one if it doesn't exist).
+
+Rename the image to something like app-preview.png.
+
+Commit and push the image along with the code.
+
+📁 Project Structure
+css
+Copy
+Edit
+qr-code-generator/
+│
 ├── public/
 ├── src/
 │   ├── App.jsx
@@ -120,19 +69,28 @@ npm run dev</code></pre>
 │   └── app-preview.png
 ├── index.html
 ├── package.json
-└── readme.html
-</code></pre>
+└── README.md
+🙋‍♀️ Author
+Subhashree Das
+🔗 LinkedIn • GitHub
 
-    <h2>🙋‍♀️ Author</h2>
-    <p><strong>Subhashree Das</strong></p>
-    <p>
-      🔗 <a href="https://www.linkedin.com/in/your-link" target="_blank">LinkedIn</a> • 
-      <a href="https://github.com/your-username" target="_blank">GitHub</a>
-    </p>
+📄 License
+This project is open-source and available under the MIT License.
 
-    <footer>
-      <p>&copy; 2025 Subhashree Das • MIT License</p>
-    </footer>
-  </div>
-</body>
-</html>
+markdown
+Copy
+Edit
+
+---
+
+### 📌 To add the screenshot:
+
+1. Run your app with `npm run dev`.
+2. Take a screenshot (press `PrtSc` or use `Snipping Tool` / `Windows + Shift + S`).
+3. Save the screenshot inside a folder named `screenshots/` in the root of your project.
+4. Name it `app-preview.png`.
+5. Commit and push:
+   ```bash
+   git add .
+   git commit -m "Add app screenshot"
+   git push
